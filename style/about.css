@@ -6,7 +6,12 @@
   /*background-color: #0F9140;*/
   width: 80px;
   height: 80px;
+  transition: all 0.3s ease-in-out;
 } 
+
+.icon_home:hover{
+  transform: rotate(90deg);
+}
 
 .nav_holder{
   width:450px;
@@ -35,14 +40,15 @@
 
 .about_photo{
   margin-top: 15px;
-  margin-left: 12.5%;
+  margin-left: 11%;
 
 }
 
 .p1_text{
-  /*display:inline-block;*/
+ 
   margin-top: 15px;
   margin-left: 130px;
+  margin-bottom: 0px;
   color:#3F3F3F;
   font-size:85px;
   font-family: 'Oswald', sans-serif;
@@ -51,9 +57,11 @@
 
 
 
-.p4_text{ 
-  margin-left: 55%;
-  margin-right: 9.5%;
+.p4_text{
+
+padding-top: 0px; 
+  margin-left: 52%;
+  margin-right: 11%;
   color:#3F3F3F;
   font-size:26px;
   font-family: 'Open Sans Condensed', sans-serif;

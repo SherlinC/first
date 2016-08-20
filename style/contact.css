@@ -6,6 +6,11 @@
   /*background-color: #0F9140;*/
   width: 80px;
   height: 80px;
+  transition: all 0.3s ease-in-out;
+} 
+
+.icon_home:hover{
+  transform: rotate(90deg);
 } 
 
 .nav_holder{
@@ -34,9 +39,7 @@
 }
 
 .p1_text{
-  display:inline-block;
-  margin-top: 150px;
-  margin-left: 130px;
+  display: inline-flex;
   color:#3F3F3F;
   font-size:85px;
   font-family: 'Oswald', sans-serif;
@@ -45,9 +48,9 @@
 
 
 .p4_text{ 
-  display:inline-block;
   
-  margin-left: 60%;
+  display:inline-flex;
+  
   color:#3F3F3F;
   font-size:22px;
   font-family: 'Open Sans Condensed', sans-serif;
